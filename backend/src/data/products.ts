@@ -360,6 +360,33 @@ export const PRODUCTS: StaticProduct[] = [
     createdAt: SEED_TS,
     updatedAt: SEED_TS,
   },
+  {
+    id: 'prod-1786548600000',
+    name: 'Natural Dishwash Powder',
+    slug: 'natural-dishwash-powder',
+    description:
+      'Experience the power of natural cleaning with our chemical-free dishwash powder made from traditional ingredients like ash, salt, soapnut powder, shikakai powder, and arappu powder.\n\n' +
+      'Benefits:\n' +
+      '- Tough on grease & stains\n' +
+      '- Gentle on hands\n' +
+      '- No harmful chemical residue\n' +
+      '- Eco-friendly & biodegradable\n' +
+      '- Safe for daily use\n\n' +
+      'Unlike chemical dishwash powders, our natural formula helps protect your skin, utensils, and the environment. Choose a safer and healthier way to clean your kitchen naturally.',
+    price: 125.0,
+    stock: 50,
+    category: 'Household Products',
+    images: [
+      "https://res.cloudinary.com/dndugbffx/image/upload/v1786542693/WhatsApp_Image_2026-08-12_at_7.18.19_PM_jyg00z.jpg",
+      "https://res.cloudinary.com/dndugbffx/image/upload/v1786542693/WhatsApp_Image_2026-08-12_at_7.18.18_PM_b3tfno.jpg",
+    ],
+    imagePublicIds: [],
+    isFeatured: false,
+    isActive: true,
+    packageSize: '250 g',
+    createdAt: SEED_TS,
+    updatedAt: SEED_TS,
+  },
 ];
 
 export function getAllProducts(): StaticProduct[] {
