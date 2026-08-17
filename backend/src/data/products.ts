@@ -387,6 +387,23 @@ export const PRODUCTS: StaticProduct[] = [
     createdAt: SEED_TS,
     updatedAt: SEED_TS,
   },
+  {
+    id: 'prod-1786971499499',
+    name: 'Pure Natural Turmeric Kumkum For Puja',
+    slug: 'pure-natural-turmeric-kumkum-for-puja',
+    description:
+      'Godhara Kumkuma is traditionally prepared with carefully selected natural ingredients and high-quality turmeric to provide a rich, vibrant red colour. It is ideal for pooja, tilak, festivals, auspicious occasions, idol decoration, and daily spiritual practices. Prepared with care using traditional methods, Godhara Kumkuma brings authenticity and the essence of Indian tradition to every devotional ritual.',
+    price: 150.0,
+    stock: 50,
+    category: 'Spiritual',
+    images: ["https://res.cloudinary.com/dndugbffx/image/upload/v1786971499/WhatsApp_Image_2026-08-17_at_6.25.08_PM_xymmce.jpg"],
+    imagePublicIds: [],
+    isFeatured: false,
+    isActive: true,
+    packageSize: '100 g',
+    createdAt: SEED_TS,
+    updatedAt: SEED_TS,
+  },
 ];
 
 export function getAllProducts(): StaticProduct[] {
